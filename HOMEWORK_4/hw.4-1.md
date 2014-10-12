@@ -54,12 +54,13 @@ Suppose you have a collection with the following indexes:
 		"ns" : "store.products",
 		"name" : "reviews.author_1"
 	}
-	```
-	
-	Answer
+
 ```
-db.products.find({'brand':"GE"}).sort({price:1})
-db.products.find({$and:[{price:{$gt:30}},{price:{$lt:50}}]}).sort({brand:1})
+Answer
+
+```
+ db.products.find({'brand':"GE"}).sort({price:1})
+ db.products.find({$and:[{price:{$gt:30}},{price:{$lt:50}}]}).sort({brand:1})
 ```
 
 
