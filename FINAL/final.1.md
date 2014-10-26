@@ -12,6 +12,6 @@ For reference, the number of email messages from Andrew Fastow to John Lavorato 
 
 '''
 mongorestore --collection message --db eron ../FINAL_EXAM/dump/enron/messages.bson 
-
 > db.message.find({"headers.From": "andrew.fastow@enron.com", "headers.To":{$in:["jeff.skilling@enron.com"]} }).count()
 3
+'''
