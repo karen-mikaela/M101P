@@ -18,3 +18,11 @@ Remember that the blog needs to be running as well as Mongo. The validation scri
 After you have gotten it working, enter the validation string below.
 ```
 >/mongoimport --drop -c posts -d blog < ../FINAL_EXAM/posts.f52bca51f2fb.json
+
+Likes value  9
+Clicking on Like link for post:  /post/mxwnnnqaflufnqwlekfd
+Trying to grab the number of likes for url  http://localhost:8082/post/mxwnnnqaflufnqwlekfd
+Likes value  10
+Tests Passed for Final 4. Your validation code is 3f837hhg673ghd93hgf8
+
+
